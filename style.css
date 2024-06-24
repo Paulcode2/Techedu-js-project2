@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc{
+    width: 55vh;
+    background-color: #ffff;
+}
+
+h2{
+    font-size: 2rem;
+    color: white;
+    background-color: brown;
+    text-align: center;
+    padding: 1rem;
+}
+
+form, form > *{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1rem;
+    border-bottom: 2px solid black;
+}
+
+form div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input, select{
+    font-size: 1rem;
+    padding: 7px;
+    width: 10rem;
+    text-align: right;
+}
+
+#calc{
+    margin: 5px 0;
+    background-color: purple;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+#calc:hover{
+    background-color: brown;
+    transition: all .3s;
+}
+
+.error{
+    color: red;
+    display: none;
+}
+
+.result{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.result > *{
+    background-color: #eee;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.tip, .total{
+    font-size: small;
+}
+.total{
+    color: red;
+}
